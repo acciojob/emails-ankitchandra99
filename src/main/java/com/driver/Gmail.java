@@ -77,7 +77,7 @@ public class Gmail extends Email {
 
     public int getInboxSize(){
         // Return number of mails in inbox
-
+        return Inbox.size();
     }
 
     public int getTrashSize(){
